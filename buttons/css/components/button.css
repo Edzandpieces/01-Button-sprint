@@ -1,0 +1,48 @@
+/* Your button CSS file */
+.btn-medium {
+  color: rgb(194,194,194);
+  border: 1px solid rgb(194,194,194);
+  border-radius: 50px;
+  padding: 12px 24px;
+  opacity: 0.8;
+  }
+  .btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: grey
+  }
+
+.btn-treehouse {
+  background-color: rgb(106,213,139);
+  border: 1px solid;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  font-weight: bold;
+  }
+  .btn-treehouse:hover {
+  text-decoration: none;
+  background-color: rgb(39, 187, 86);
+  }
+
+.btn-yours {
+  width: 400px;
+  height: 200px;
+  border: 6px solid black;
+  color: rgb(158, 14, 14);
+  font-weight: bolder;
+  padding: 12px 24px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50% / 10%;
+}
+.btn-yours:hover {
+  position: sticky;
+  top: -200px;
+  left: -200px;
+  margin: auto;
+  height: 800px;
+  width: 800px;
+  background-image: url('download.gif');
+}
